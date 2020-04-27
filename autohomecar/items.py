@@ -9,7 +9,7 @@ import scrapy
 
 
 class SeriesItem(scrapy.Item):
-    #ollection = 'car_series'
+    #collection = 'car_series'
     car_title_name = scrapy.Field()
     car_name = scrapy.Field()   # 汽车型号
     price_one = scrapy.Field()  # 厂商指导价

@@ -12,6 +12,7 @@ import time
 import random
 from autohomecar.settings import USER_AGENT as ua_list
 
+
 class UserAgentMiddleware(object):
     def process_request(self, request, spider):
         # 从ua_list中随机选择一个User-Agent
@@ -26,6 +27,7 @@ class UserAgentMiddleware(object):
 '''
 selenium对接scrapy部分
 '''
+
 
 class SeleniumMiddleware(object):
     def process_request(self, request, spider):
